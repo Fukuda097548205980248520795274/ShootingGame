@@ -36,6 +36,9 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓更新処理ここから
 		///
 
+		// 操作する
+		player->Operation(keys, preKeys);
+
 		///
 		/// ↑更新処理ここまで
 		///
@@ -44,6 +47,11 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓描画処理ここから
 		///
 
+		/*-------------------
+		    画像を描画する
+		-------------------*/
+
+		// 描画する
 		player->Draw();
 
 		///
@@ -64,6 +72,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	    インスタンスを削除する
 	-------------------------*/
 
+	// プレイヤー
 	delete player;
 
 
