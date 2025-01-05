@@ -1,5 +1,5 @@
 #include <Novice.h>
-#include "Constance.h"
+#include "Constant.h"
 
 const char kWindowTitle[] = "LC1C_20_フクダソウワ_シューティングゲーム";
 
